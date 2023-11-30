@@ -3,7 +3,7 @@ description: 'Detect unused dependencies in a rust project'
 author: 'Aaron Griffin'
 
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
 
 inputs:
