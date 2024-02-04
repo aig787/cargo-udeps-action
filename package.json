@@ -1,6 +1,6 @@
 {
   "name": "cargo-udeps-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect unused dependencies in a rust project",
   "main": "lib/main.js",
   "directories": {

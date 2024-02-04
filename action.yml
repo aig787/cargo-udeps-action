@@ -3,7 +3,7 @@ description: 'Detect unused dependencies in a rust project'
 author: 'Aaron Griffin'
 
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 
 inputs:
@@ -12,7 +12,7 @@ inputs:
     required: true
     default: 'latest'
   target:
-    description:  'Binary target to downloag'
+    description:  'Binary target to download'
     required: true
     default: 'x86_64-unknown-linux-gnu'
   args:
